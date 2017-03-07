@@ -1,0 +1,15 @@
+<clients>
+  <client key="88eaa93d-b635-329b-904f-0f66269ebc76" mail="ariel.darkserver@gmail.com">
+    <alert type="memory" limit="50%" />
+    <alert type="cpu" limit="20%" />
+    <alert type="processes" limit="50" />
+</client>
+<email>
+  <smpt_server/>
+  <smpt_port/>
+  <smpt_username/>
+  <smpt_password/>
+  <autentication/>
+  <smtp_use_ssl/>
+</email>
+</clients>

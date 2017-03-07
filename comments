@@ -1,0 +1,22 @@
+The application integrate sengrid, with any database, In this case I use sqlite just because
+is a file, but with just changing the connection string and compile it can be changed to
+other database as mysql and postgres.
+
+On the other hand, the client and server talk each other using json message.
+
+But the server and the client has their configuration stored ad xml.
+
+I was wanting to use the API of sengrid, but you specified that you want smtp,
+My sengrid account is suspended so nobody get hurt.
+
+The hardest part was working in the client
+Because what you can do in linux and other unix is pretty different with the things in windows
+In the test you didn't expecified the kind of the computer, so I presume it can be any lind.
+
+SO i try to made it the most operating system agnostic possible.
+
+
+the project can be visited in
+
+I will made a gist about How i send the json request to the server in C++. To made it work it take
+like two hours more that what I inittialy expect.
